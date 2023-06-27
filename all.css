@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background: #fff;
+    color: #000000;
+    font: 300 16px/20px "Rubik", "sans-serif";
+}
+
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table {
+    background-color: aquamarine;
+    border: 2px solid #313131;
+    border-collapse: collapse;
+    width: 400px;
+}
+tr:first-child > td:first-child {
+    font-size: 0;
+}
+
+td:first-child, tr:first-child{
+    font-weight: 500;
+}
+
